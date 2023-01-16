@@ -159,7 +159,9 @@ UnityEngine.AnimationCurve::Internal_Destroy
 UnityEngine.Application::Quit
 UnityEngine.AudioSettings::StartAudioOutput
 UnityEngine.AudioSettings::StopAudioOutput
+UnityEngine.Behaviour::get_enabled
 UnityEngine.Behaviour::set_enabled
+UnityEngine.Camera::get_stereoEnabled
 UnityEngine.Camera::GetAllCamerasCount
 UnityEngine.Camera::GetAllCamerasImpl
 UnityEngine.Camera::get_cullingMask
@@ -386,3 +388,6 @@ UnityEngine.Transform::GetChild
 UnityEngine.Transform::GetParent
 UnityEngine.U2D.SpriteAtlasManager::Register
 UnityEngine.UnityLogWriter::WriteStringToUnityLogImpl
+UnityEngine.XR.InputTracking::GetNodeStates_Internal
+UnityEngine.XR.XRMeshSubsystem/MeshTransformList::Dispose
+UnityEngineInternal.Input.NativeInputSystem::set_hasDeviceDiscoveredCallback
