@@ -12596,10 +12596,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1163384152949527812, guid: 165fbbeb7adb63b4bace9fe54d5ee42f, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8880489609100813550, guid: 165fbbeb7adb63b4bace9fe54d5ee42f, type: 3}
       propertyPath: m_Name
       value: Door
