@@ -14,7 +14,11 @@ public class RotateAsCamera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 vector = Vector3.Scale( _maincam.transform.rotation.eulerAngles, new Vector3(0,1,0));
-        transform.rotation.eulerAngles.Set(vector.x,vector.y,vector.z);
+        _maincam.transform.parent = null;
+        float x = transform.rotation.x;
+        float z = transform.rotation.z;
+        float w = transform.rotation.w;
+        transform.rotation.Set(x,_maincam.transform.rotation.y,z,w);
+        _maincam.transform.parent = transform;
     }
 }
