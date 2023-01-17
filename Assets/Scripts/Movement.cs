@@ -14,7 +14,8 @@ public class Movement : MonoBehaviour
     }
 
     void Update() {
-        movement = (Input.GetAxis("Horizontal") * transform.right + Input.GetAxis("Vertical") * transform.forward).normalized;
+        movement = (Input.GetAxis("Horizontal") * Camera.main.transform.right +
+                     Input.GetAxis("Vertical") * Camera.main.transform.forward).normalized;
     }
 
     void FixedUpdate()
