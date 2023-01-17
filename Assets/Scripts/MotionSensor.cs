@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class MotionSensor : MonoBehaviour
 {
-    public delegate void MotionDetectedEvent();
+    public delegate void MotionDetectedEvent(string roomName);
     public static event MotionDetectedEvent OnMotionDetected;
+    public Rigidbody player;
+    public string roomName;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +23,9 @@ public class MotionSensor : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        
+        if (player.velocity.magnitude > 0.1)
+        {
+            OnMotionDetected(roomName);
+        }
     }
 }

@@ -70,105 +70,133 @@ extern void U3CStartXRU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_O
 extern void U3CStartXRU3Ed__10_System_Collections_IEnumerator_Reset_mD99AEFDB38CFAC11731CDB371647891816288600 (void);
 // 0x0000001D System.Object VrModeController/<StartXR>d__10::System.Collections.IEnumerator.get_Current()
 extern void U3CStartXRU3Ed__10_System_Collections_IEnumerator_get_Current_mD84D9ACDB0A04C619509BA51590975DB84C30B0F (void);
-// 0x0000001E System.Void CamMovement::Update()
+// 0x0000001E System.Void ActionDoor::Start()
+extern void ActionDoor_Start_m9BC85147F801C9ED9F4EA39D3540434133ADCCAC (void);
+// 0x0000001F System.Void ActionDoor::Update()
+extern void ActionDoor_Update_mE5B23F34C0E4F39D52C8D8C961E7E72725ECCA6F (void);
+// 0x00000020 System.Void ActionDoor::OnTriggerStay(UnityEngine.Collider)
+extern void ActionDoor_OnTriggerStay_mC1E93E718D17783AF101A7FB8B188A102DEE0856 (void);
+// 0x00000021 System.Void ActionDoor::.ctor()
+extern void ActionDoor__ctor_m4C25BDAE44D11937173D4FB7A76E94E5523A92BF (void);
+// 0x00000022 System.Void CamMovement::Update()
 extern void CamMovement_Update_m334037496831189687C1059EB90BAD9B4E82DE74 (void);
-// 0x0000001F System.Void CamMovement::.ctor()
+// 0x00000023 System.Void CamMovement::.ctor()
 extern void CamMovement__ctor_m2F00B5A27BC5127F328169B856570DC04C7644E1 (void);
-// 0x00000020 System.Void InfoFunctions::Appear()
+// 0x00000024 System.Void InfoFunctions::Appear()
 extern void InfoFunctions_Appear_m4DC3AEFD6FFFE7FACAB9E6A2530E20FB0965008E (void);
-// 0x00000021 System.Void InfoFunctions::Disappear()
+// 0x00000025 System.Void InfoFunctions::Disappear()
 extern void InfoFunctions_Disappear_m0E19659E19A54B613215F6F3A85CDA84F62C1031 (void);
-// 0x00000022 System.Void InfoFunctions::.ctor()
+// 0x00000026 System.Void InfoFunctions::.ctor()
 extern void InfoFunctions__ctor_m893390E30DB3BF5B1D333DBEFCCA5E6425BDA081 (void);
-// 0x00000023 System.Void LookAt::Update()
+// 0x00000027 System.Void LookAt::Update()
 extern void LookAt_Update_mF319BDE9DC8103E027AF2606527FEBB476176308 (void);
-// 0x00000024 System.Void LookAt::.ctor()
+// 0x00000028 System.Void LookAt::.ctor()
 extern void LookAt__ctor_mC8898B99315BD18DEB0F9291F7E1C070F19CC575 (void);
-// 0x00000025 System.Void LookAtPlayer::OnEnable()
+// 0x00000029 System.Void LookAtPlayer::OnEnable()
 extern void LookAtPlayer_OnEnable_m0271DFF477F430F8217E314405359E7B4BBC6ABF (void);
-// 0x00000026 System.Void LookAtPlayer::Update()
+// 0x0000002A System.Void LookAtPlayer::Update()
 extern void LookAtPlayer_Update_m9EE58C1B9B2C9BF276C8C9CAECFDF7DA19C34BF5 (void);
-// 0x00000027 System.Void LookAtPlayer::rotateToPlayer()
+// 0x0000002B System.Void LookAtPlayer::rotateToPlayer()
 extern void LookAtPlayer_rotateToPlayer_m23D3870074A17036F2E0301FFF39EFA5D7540983 (void);
-// 0x00000028 System.Void LookAtPlayer::.ctor()
+// 0x0000002C System.Void LookAtPlayer::.ctor()
 extern void LookAtPlayer__ctor_m5A3A2CAFA412C0A18376DCE5C414F259704D869E (void);
-// 0x00000029 System.Void Meh::Start()
+// 0x0000002D System.Void Meh::Start()
 extern void Meh_Start_m600467E8E6C9C5DFC9B58DBEA18C5C4F35E9D2E2 (void);
-// 0x0000002A System.Void Meh::Update()
+// 0x0000002E System.Void Meh::Update()
 extern void Meh_Update_m336253DB0C33D01A384C261DC69CA9B51147F5B6 (void);
-// 0x0000002B System.Void Meh::.ctor()
+// 0x0000002F System.Void Meh::.ctor()
 extern void Meh__ctor_mA58AFF7C9302A18701C02E83AC4B8B0182C2D45F (void);
-// 0x0000002C System.Void Movement::Start()
+// 0x00000030 System.Void MotionSensor::add_OnMotionDetected(MotionSensor/MotionDetectedEvent)
+extern void MotionSensor_add_OnMotionDetected_mED0D2483782E506B5934AC6579CC212591F6C73E (void);
+// 0x00000031 System.Void MotionSensor::remove_OnMotionDetected(MotionSensor/MotionDetectedEvent)
+extern void MotionSensor_remove_OnMotionDetected_mA18AD1B592A5666D17B5ACB59984FEA0721AE409 (void);
+// 0x00000032 System.Void MotionSensor::Start()
+extern void MotionSensor_Start_m706496DBA87E786EE530EBECE8D29D92CB3EAFBC (void);
+// 0x00000033 System.Void MotionSensor::Update()
+extern void MotionSensor_Update_m528FC15B64983820528BFBC3D9E08B50CB8EF6BD (void);
+// 0x00000034 System.Void MotionSensor::OnTriggerStay(UnityEngine.Collider)
+extern void MotionSensor_OnTriggerStay_m5F6D7ABA6D382F6744C4D2288C9A9E85E23787BD (void);
+// 0x00000035 System.Void MotionSensor::.ctor()
+extern void MotionSensor__ctor_mFB95B5A156B94E23FE982E3261A908CDBF561AD6 (void);
+// 0x00000036 System.Void MotionSensor/MotionDetectedEvent::.ctor(System.Object,System.IntPtr)
+extern void MotionDetectedEvent__ctor_mBAE6EC800846BDE4A24186321BC75FC81118D41C (void);
+// 0x00000037 System.Void MotionSensor/MotionDetectedEvent::Invoke()
+extern void MotionDetectedEvent_Invoke_mA741AA51D966F3ABCB2A4EFCCA888A871B169AC3 (void);
+// 0x00000038 System.IAsyncResult MotionSensor/MotionDetectedEvent::BeginInvoke(System.AsyncCallback,System.Object)
+extern void MotionDetectedEvent_BeginInvoke_mFF7B0974E544DCA09EED7162A4BD1FEBA2BF9FB9 (void);
+// 0x00000039 System.Void MotionSensor/MotionDetectedEvent::EndInvoke(System.IAsyncResult)
+extern void MotionDetectedEvent_EndInvoke_m5E07DCF4E0C181C5FFCD013709511C4C3BC39E0F (void);
+// 0x0000003A System.Void Movement::Start()
 extern void Movement_Start_m3D09153FD03F06C31BBD151C21BA361EA49FA72B (void);
-// 0x0000002D System.Void Movement::Update()
+// 0x0000003B System.Void Movement::Update()
 extern void Movement_Update_m4B99F519DF0A29B476F90FE4314A770CD53EC418 (void);
-// 0x0000002E System.Void Movement::FixedUpdate()
+// 0x0000003C System.Void Movement::FixedUpdate()
 extern void Movement_FixedUpdate_mBAFAFB0C3B305F3F3FCDE7E0AE3B61C89E84B6CC (void);
-// 0x0000002F System.Void Movement::.ctor()
+// 0x0000003D System.Void Movement::.ctor()
 extern void Movement__ctor_mCB72C1AD57256D73959D74FB86C5D0AA69EAE7ED (void);
-// 0x00000030 System.Void PlatformTP::add_OnPlayerPress(PlatformTP/PlatformTPing)
+// 0x0000003E System.Void PlatformTP::add_OnPlayerPress(PlatformTP/PlatformTPing)
 extern void PlatformTP_add_OnPlayerPress_m511EE0D1AE23182D32603A0C4C36A32A6E61B874 (void);
-// 0x00000031 System.Void PlatformTP::remove_OnPlayerPress(PlatformTP/PlatformTPing)
+// 0x0000003F System.Void PlatformTP::remove_OnPlayerPress(PlatformTP/PlatformTPing)
 extern void PlatformTP_remove_OnPlayerPress_mBFCA720410A4141BEE32507285A1B278F1538BAC (void);
-// 0x00000032 System.Void PlatformTP::Update()
+// 0x00000040 System.Void PlatformTP::Update()
 extern void PlatformTP_Update_m8E17DE9ADE591B9FD595F2F24301C9B159963FE0 (void);
-// 0x00000033 System.Void PlatformTP::OnTriggerStay(UnityEngine.Collider)
+// 0x00000041 System.Void PlatformTP::OnTriggerStay(UnityEngine.Collider)
 extern void PlatformTP_OnTriggerStay_m0E43ADA4A9873FE878F42F493C4EE9F80EFB5670 (void);
-// 0x00000034 System.Void PlatformTP::.ctor()
+// 0x00000042 System.Void PlatformTP::.ctor()
 extern void PlatformTP__ctor_m38FB113695441E6CA2879F6EF2F14C3719EA63F1 (void);
-// 0x00000035 System.Void PlatformTP/PlatformTPing::.ctor(System.Object,System.IntPtr)
+// 0x00000043 System.Void PlatformTP/PlatformTPing::.ctor(System.Object,System.IntPtr)
 extern void PlatformTPing__ctor_m918FAD855415A1505FF3513EB1BEE57BB340ACA2 (void);
-// 0x00000036 System.Void PlatformTP/PlatformTPing::Invoke(UnityEngine.GameObject)
+// 0x00000044 System.Void PlatformTP/PlatformTPing::Invoke(UnityEngine.GameObject)
 extern void PlatformTPing_Invoke_mFC5E47A7197ADD01FB152E71D1AD451EAA0F99F8 (void);
-// 0x00000037 System.IAsyncResult PlatformTP/PlatformTPing::BeginInvoke(UnityEngine.GameObject,System.AsyncCallback,System.Object)
+// 0x00000045 System.IAsyncResult PlatformTP/PlatformTPing::BeginInvoke(UnityEngine.GameObject,System.AsyncCallback,System.Object)
 extern void PlatformTPing_BeginInvoke_mD5205999404295D4E96FA189054FEAEE0A943E08 (void);
-// 0x00000038 System.Void PlatformTP/PlatformTPing::EndInvoke(System.IAsyncResult)
+// 0x00000046 System.Void PlatformTP/PlatformTPing::EndInvoke(System.IAsyncResult)
 extern void PlatformTPing_EndInvoke_m0E42A034ED527E6875AA1038F6954C7CECECAD42 (void);
-// 0x00000039 System.Void PlayerTP::Start()
+// 0x00000047 System.Void PlayerTP::Start()
 extern void PlayerTP_Start_mB949EC1329156ADAF5395229D5B83FB04E30582B (void);
-// 0x0000003A System.Void PlayerTP::TPto(UnityEngine.GameObject)
+// 0x00000048 System.Void PlayerTP::TPto(UnityEngine.GameObject)
 extern void PlayerTP_TPto_mD932CC081B3397D6DC24F55A3907AA19A9A476AF (void);
-// 0x0000003B System.Void PlayerTP::.ctor()
+// 0x00000049 System.Void PlayerTP::.ctor()
 extern void PlayerTP__ctor_m6B393241EE29D6AD91B3F838003B47A40BE11102 (void);
-// 0x0000003C System.Void WaveCaveGames.AutomaticDoor::Update()
+// 0x0000004A System.Void WaveCaveGames.AutomaticDoor::Update()
 extern void AutomaticDoor_Update_m898BE647FDFE5609E01B2586C5419C3E46214F09 (void);
-// 0x0000003D System.Void WaveCaveGames.AutomaticDoor::OnTriggerEnter(UnityEngine.Collider)
+// 0x0000004B System.Void WaveCaveGames.AutomaticDoor::OnTriggerEnter(UnityEngine.Collider)
 extern void AutomaticDoor_OnTriggerEnter_m9BF0D53A02A40E21F30B1C31F94F8FECACD547BF (void);
-// 0x0000003E System.Void WaveCaveGames.AutomaticDoor::OnTriggerExit(UnityEngine.Collider)
+// 0x0000004C System.Void WaveCaveGames.AutomaticDoor::OnTriggerExit(UnityEngine.Collider)
 extern void AutomaticDoor_OnTriggerExit_mDF29122723663B7D275E7B2BCDAA59381B234895 (void);
-// 0x0000003F System.Void WaveCaveGames.AutomaticDoor::.ctor()
+// 0x0000004D System.Void WaveCaveGames.AutomaticDoor::.ctor()
 extern void AutomaticDoor__ctor_m1262BCDBA17EBEDE69ADFF8C95E339326509737B (void);
-// 0x00000040 System.Void WaveCaveGames.Door::Awake()
+// 0x0000004E System.Void WaveCaveGames.Door::Awake()
 extern void Door_Awake_m2878F66E687F9413230FC21CEA4FDF59C408C39B (void);
-// 0x00000041 System.Void WaveCaveGames.Door::Update()
+// 0x0000004F System.Void WaveCaveGames.Door::Update()
 extern void Door_Update_mECF47211D0FDECFB6D21D9C33221904AA391B441 (void);
-// 0x00000042 System.Void WaveCaveGames.Door::.ctor()
+// 0x00000050 System.Void WaveCaveGames.Door::.ctor()
 extern void Door__ctor_m83078D66F63E968FB144BD21F7FD16E802E59CB3 (void);
-// 0x00000043 System.Void WaveCaveGames.DoorGroup::OpenTheDoors()
+// 0x00000051 System.Void WaveCaveGames.DoorGroup::OpenTheDoors()
 extern void DoorGroup_OpenTheDoors_mFFB70B3A29515150BAF2D55FFB12A09870C62EF7 (void);
-// 0x00000044 System.Void WaveCaveGames.DoorGroup::.ctor()
+// 0x00000052 System.Void WaveCaveGames.DoorGroup::.ctor()
 extern void DoorGroup__ctor_m58EC093AF7BCD98ACE95975718B39B91C004278C (void);
-// 0x00000045 System.Void WaveCaveGames.FPSTrigger::Update()
+// 0x00000053 System.Void WaveCaveGames.FPSTrigger::Update()
 extern void FPSTrigger_Update_mEF9DE2000919A6E4FD2A712E218CA1E745412D59 (void);
-// 0x00000046 System.Void WaveCaveGames.FPSTrigger::OnTriggerStay(UnityEngine.Collider)
+// 0x00000054 System.Void WaveCaveGames.FPSTrigger::OnTriggerStay(UnityEngine.Collider)
 extern void FPSTrigger_OnTriggerStay_mDF95B03B7043294047C35759A9B79AF842ADDB20 (void);
-// 0x00000047 System.Void WaveCaveGames.FPSTrigger::OnTriggerExit(UnityEngine.Collider)
+// 0x00000055 System.Void WaveCaveGames.FPSTrigger::OnTriggerExit(UnityEngine.Collider)
 extern void FPSTrigger_OnTriggerExit_mAC6B970A96ADC27701BED9BCC7E1439FCAA45F2A (void);
-// 0x00000048 System.Void WaveCaveGames.FPSTrigger::OnGUI()
+// 0x00000056 System.Void WaveCaveGames.FPSTrigger::OnGUI()
 extern void FPSTrigger_OnGUI_mD96854656A190C8484FCE5765D9E08E3C736B03B (void);
-// 0x00000049 System.Void WaveCaveGames.FPSTrigger::.ctor()
+// 0x00000057 System.Void WaveCaveGames.FPSTrigger::.ctor()
 extern void FPSTrigger__ctor_m2E2FBD04C6A80DBFE307E3B627C64761FCC00A7D (void);
-// 0x0000004A System.Void WaveCaveGames.Window::OpenWindow(System.Int32)
+// 0x00000058 System.Void WaveCaveGames.Window::OpenWindow(System.Int32)
 extern void Window_OpenWindow_m949967000FBFE2B518A94D4DFA3D3A355CC896BD (void);
-// 0x0000004B System.Void WaveCaveGames.Window::.ctor()
+// 0x00000059 System.Void WaveCaveGames.Window::.ctor()
 extern void Window__ctor_m0122BC63668E2372248FB386C8CDC2B8EC6900BB (void);
-// 0x0000004C System.Void WaveCaveGames.FPSController::Start()
+// 0x0000005A System.Void WaveCaveGames.FPSController::Start()
 extern void FPSController_Start_mE9337468128A652BF36362BC932E86D6838A570F (void);
-// 0x0000004D System.Void WaveCaveGames.FPSController::Update()
+// 0x0000005B System.Void WaveCaveGames.FPSController::Update()
 extern void FPSController_Update_mF355A1A6FAD1190EF129C487666BDEBAE0277F21 (void);
-// 0x0000004E System.Void WaveCaveGames.FPSController::.ctor()
+// 0x0000005C System.Void WaveCaveGames.FPSController::.ctor()
 extern void FPSController__ctor_m2A291366E4D01D30678629727A66DE78262BB23A (void);
-static Il2CppMethodPointer s_methodPointers[78] = 
+static Il2CppMethodPointer s_methodPointers[92] = 
 {
 	CameraPointer_Update_mF19D284A593E4627CD4F22A58C11FB87B6627FF4,
 	CameraPointer__ctor_m5C4B443EB7C8A518306BF27BD947D938FDF5162D,
@@ -199,6 +227,10 @@ static Il2CppMethodPointer s_methodPointers[78] =
 	U3CStartXRU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD0B4CE8CBE980FD132B19F40FF2172502B1D0566,
 	U3CStartXRU3Ed__10_System_Collections_IEnumerator_Reset_mD99AEFDB38CFAC11731CDB371647891816288600,
 	U3CStartXRU3Ed__10_System_Collections_IEnumerator_get_Current_mD84D9ACDB0A04C619509BA51590975DB84C30B0F,
+	ActionDoor_Start_m9BC85147F801C9ED9F4EA39D3540434133ADCCAC,
+	ActionDoor_Update_mE5B23F34C0E4F39D52C8D8C961E7E72725ECCA6F,
+	ActionDoor_OnTriggerStay_mC1E93E718D17783AF101A7FB8B188A102DEE0856,
+	ActionDoor__ctor_m4C25BDAE44D11937173D4FB7A76E94E5523A92BF,
 	CamMovement_Update_m334037496831189687C1059EB90BAD9B4E82DE74,
 	CamMovement__ctor_m2F00B5A27BC5127F328169B856570DC04C7644E1,
 	InfoFunctions_Appear_m4DC3AEFD6FFFE7FACAB9E6A2530E20FB0965008E,
@@ -213,6 +245,16 @@ static Il2CppMethodPointer s_methodPointers[78] =
 	Meh_Start_m600467E8E6C9C5DFC9B58DBEA18C5C4F35E9D2E2,
 	Meh_Update_m336253DB0C33D01A384C261DC69CA9B51147F5B6,
 	Meh__ctor_mA58AFF7C9302A18701C02E83AC4B8B0182C2D45F,
+	MotionSensor_add_OnMotionDetected_mED0D2483782E506B5934AC6579CC212591F6C73E,
+	MotionSensor_remove_OnMotionDetected_mA18AD1B592A5666D17B5ACB59984FEA0721AE409,
+	MotionSensor_Start_m706496DBA87E786EE530EBECE8D29D92CB3EAFBC,
+	MotionSensor_Update_m528FC15B64983820528BFBC3D9E08B50CB8EF6BD,
+	MotionSensor_OnTriggerStay_m5F6D7ABA6D382F6744C4D2288C9A9E85E23787BD,
+	MotionSensor__ctor_mFB95B5A156B94E23FE982E3261A908CDBF561AD6,
+	MotionDetectedEvent__ctor_mBAE6EC800846BDE4A24186321BC75FC81118D41C,
+	MotionDetectedEvent_Invoke_mA741AA51D966F3ABCB2A4EFCCA888A871B169AC3,
+	MotionDetectedEvent_BeginInvoke_mFF7B0974E544DCA09EED7162A4BD1FEBA2BF9FB9,
+	MotionDetectedEvent_EndInvoke_m5E07DCF4E0C181C5FFCD013709511C4C3BC39E0F,
 	Movement_Start_m3D09153FD03F06C31BBD151C21BA361EA49FA72B,
 	Movement_Update_m4B99F519DF0A29B476F90FE4314A770CD53EC418,
 	Movement_FixedUpdate_mBAFAFB0C3B305F3F3FCDE7E0AE3B61C89E84B6CC,
@@ -249,92 +291,106 @@ static Il2CppMethodPointer s_methodPointers[78] =
 	FPSController_Update_mF355A1A6FAD1190EF129C487666BDEBAE0277F21,
 	FPSController__ctor_m2A291366E4D01D30678629727A66DE78262BB23A,
 };
-static const int32_t s_InvokerIndices[78] = 
+static const int32_t s_InvokerIndices[92] = 
 {
-	1079,
-	1079,
-	1079,
-	1079,
-	1079,
-	1079,
-	1079,
-	1079,
-	1079,
-	1079,
-	1079,
-	1079,
-	902,
-	1079,
-	1029,
-	1029,
-	1079,
-	1079,
-	1079,
-	1079,
-	1053,
-	1079,
-	1079,
-	920,
-	1079,
-	1029,
-	1053,
-	1079,
-	1053,
-	1079,
-	1079,
-	1079,
-	1079,
-	1079,
-	1079,
-	1079,
-	1079,
-	1079,
-	1079,
-	1079,
-	1079,
-	1079,
-	1079,
-	1079,
-	1079,
-	1079,
-	1079,
-	929,
-	929,
-	1079,
-	929,
-	1079,
-	566,
-	929,
-	298,
-	929,
-	1079,
-	929,
-	1079,
-	1079,
-	929,
-	929,
-	1079,
-	1079,
-	1079,
-	1079,
-	1079,
-	1079,
-	1079,
-	929,
-	929,
-	1079,
-	1079,
-	920,
-	1079,
-	1079,
-	1079,
-	1079,
+	4258,
+	4258,
+	4258,
+	4258,
+	4258,
+	4258,
+	4258,
+	4258,
+	4258,
+	4258,
+	4258,
+	4258,
+	3325,
+	4258,
+	4090,
+	4090,
+	4258,
+	4258,
+	4258,
+	4258,
+	4167,
+	4258,
+	4258,
+	3379,
+	4258,
+	4090,
+	4167,
+	4258,
+	4167,
+	4258,
+	4258,
+	3400,
+	4258,
+	4258,
+	4258,
+	4258,
+	4258,
+	4258,
+	4258,
+	4258,
+	4258,
+	4258,
+	4258,
+	4258,
+	4258,
+	4258,
+	4258,
+	6435,
+	6435,
+	4258,
+	4258,
+	3400,
+	4258,
+	1885,
+	4258,
+	1463,
+	3400,
+	4258,
+	4258,
+	4258,
+	4258,
+	3400,
+	3400,
+	4258,
+	3400,
+	4258,
+	1885,
+	3400,
+	828,
+	3400,
+	4258,
+	3400,
+	4258,
+	4258,
+	3400,
+	3400,
+	4258,
+	4258,
+	4258,
+	4258,
+	4258,
+	4258,
+	4258,
+	3400,
+	3400,
+	4258,
+	4258,
+	3379,
+	4258,
+	4258,
+	4258,
+	4258,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	78,
+	92,
 	s_methodPointers,
 	0,
 	NULL,
