@@ -4,13 +4,7 @@ using UnityEngine;
 
 public class RotateAsCamera : MonoBehaviour
 {
-    private GameObject _maincam;
-    // Start is called before the first frame update
-    void Start()
-    {
-        _maincam = GameObject.FindGameObjectWithTag("MainCamera");
-    }
-
+    public GameObject _maincam;
     // Update is called once per frame
     void Update()
     {
