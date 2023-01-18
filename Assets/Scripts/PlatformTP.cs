@@ -7,28 +7,35 @@ public class PlatformTP : MonoBehaviour
     public GameObject PlatformToTP;
     public delegate void PlatformTPing(GameObject platform);
     public event PlatformTPing OnPlayerPress;
-    
+
     static private bool key = false;
     static private bool inside = false;
 
-    void Update() {
-        if (Input.GetKeyDown("joystick button 0") && inside) {
+    void Update()
+    {
+        if (Input.GetButtonDown("Action") && inside)
+        {
             key = true;
         }
     }
 
-    void OnTriggerStay(Collider other) {
-        if (other.gameObject.tag == "Player") {
+    void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
             inside = true;
-            if (key) {
+            if (key)
+            {
                 Debug.Log("PRESSED");
                 key = false;
                 OnPlayerPress(PlatformToTP);
             }
         }
     }
-    void OnTriggerExit(Collider other) {
-        if (other.gameObject.tag == "Player") {
+    void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
             inside = false;
         }
     }
