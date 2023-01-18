@@ -17,14 +17,19 @@ public class LookAt : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(transform.position, transform.forward, out hit, _maxDistance))
         {
+            Debug.Log(hit.transform.tag);
             // GameObject detected in front of the camera.
             if (_gazedAtObject != hit.transform.gameObject)
             {
-                if (hit.transform.gameObject.tag == "INFO") {
+                if (hit.transform.gameObject.tag == "INFO")
+                {
                     hit.transform.gameObject.SendMessage("Appear");
-                } else {
+                }
+                else
+                {
                     if (_gazedAtObject != null)
-                        if (_gazedAtObject.tag == "INFO") {
+                        if (_gazedAtObject.tag == "INFO")
+                        {
                             _gazedAtObject.SendMessage("Disappear");
                         }
                 }
@@ -33,8 +38,10 @@ public class LookAt : MonoBehaviour
         }
         else
         {
-            if (_gazedAtObject != null) {
-                if (_gazedAtObject.tag == "INFO") {
+            if (_gazedAtObject != null)
+            {
+                if (_gazedAtObject.tag == "INFO")
+                {
                     _gazedAtObject.SendMessage("Disappear");
                 }
             }
