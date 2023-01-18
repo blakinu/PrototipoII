@@ -9,7 +9,7 @@ public class CamMovement : MonoBehaviour
     {
         float YInput1 = Input.GetAxis("Horizontal2");
         float YInput2 = Input.GetAxis("Vertical2");
-        transform.parent.transform.Rotate(Vector3.up * YInput1, Space.World);
+        transform.Rotate(Vector3.up * YInput1, Space.World);
         transform.Rotate(Vector3.right * YInput2);
     }
 }

@@ -3534,7 +3534,7 @@ PrefabInstance:
     - target: {fileID: 8965966068536403358, guid: 727e1fc88e563974b88bdff56e894d09, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 962688626}
+      objectReference: {fileID: 962688630}
     - target: {fileID: 8965966068536403358, guid: 727e1fc88e563974b88bdff56e894d09, type: 3}
       propertyPath: roomName
       value: bathroom
@@ -5938,7 +5938,7 @@ PrefabInstance:
     - target: {fileID: 8965966068536403358, guid: 727e1fc88e563974b88bdff56e894d09, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 962688626}
+      objectReference: {fileID: 962688630}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 727e1fc88e563974b88bdff56e894d09, type: 3}
 --- !u!4 &929646282 stripped
@@ -5964,23 +5964,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 1
---- !u!114 &962688625
-MonoBehaviour:
+--- !u!143 &962688630
+CharacterController:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 962688616}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64ba832c95154054fba536f7456ec6eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!54 &962688626 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 1289532806563473757, guid: 4d608e3a29e0a234f94543cd534feada, type: 3}
-  m_PrefabInstance: {fileID: 1554445376}
-  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &976735629
 GameObject:
   m_ObjectHideFlags: 0
@@ -9883,7 +9884,8 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1289532806563473757, guid: 4d608e3a29e0a234f94543cd534feada, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4d608e3a29e0a234f94543cd534feada, type: 3}
 --- !u!1 &1579203300
 GameObject:
@@ -11811,7 +11813,7 @@ PrefabInstance:
     - target: {fileID: 8965966068536403358, guid: 727e1fc88e563974b88bdff56e894d09, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 962688626}
+      objectReference: {fileID: 962688630}
     - target: {fileID: 8965966068536403358, guid: 727e1fc88e563974b88bdff56e894d09, type: 3}
       propertyPath: roomName
       value: kitchen
@@ -11884,7 +11886,7 @@ PrefabInstance:
     - target: {fileID: 8965966068536403358, guid: 727e1fc88e563974b88bdff56e894d09, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 962688626}
+      objectReference: {fileID: 962688630}
     - target: {fileID: 8965966068536403358, guid: 727e1fc88e563974b88bdff56e894d09, type: 3}
       propertyPath: roomName
       value: bedroom

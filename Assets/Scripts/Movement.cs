@@ -4,29 +4,30 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    private Rigidbody rb;
+    private CharacterController controller;
     private Vector3 movement;
     public float velocidad = 1f;
 
     void Start()
     {
-       rb = GetComponent<Rigidbody>();
+       controller = GetComponent<CharacterController>();
     }
 
     void Update() {
-        Transform parent = Camera.main.transform.parent;
-        Camera.main.transform.parent = null;
-        float x = transform.rotation.x;
-        float z = transform.rotation.z;
-        float w = transform.rotation.w;
-        transform.rotation = new Quaternion(x,Camera.main.transform.rotation.y,z,w);
-        movement = (Input.GetAxis("Horizontal") * transform.right +
-                     Input.GetAxis("Vertical") * transform.forward).normalized;
-        Camera.main.transform.parent = parent;
+        Move();
     }
 
-    void FixedUpdate()
+    void Move()
     {
-        rb.velocity = new Vector3(0, rb.velocity.y,0) + movement * velocidad * Time.fixedDeltaTime * 100;
+        // Obtención de los valores de movimiento y normalización.
+        movement = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")).normalized;
+
+        Transform newT = new GameObject().transform;
+        newT.eulerAngles = new Vector3(0,Camera.main.transform.eulerAngles.y,0);
+        // Transformación del movimiento respecto al sistema de coordenadas global.
+        Vector3 transformedMovement = newT.transform.TransformDirection(movement * velocidad);
+        
+        // Movimiento.
+        controller.Move(transformedMovement * Time.deltaTime);
     }
 }
