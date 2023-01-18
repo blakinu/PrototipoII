@@ -16,6 +16,6 @@ public class LookAtPlayer : MonoBehaviour
 
     void rotateToPlayer()
     {
-        transform.LookAt(player.transform);
+        transform.LookAt(Camera.main.transform);
     }
 }
