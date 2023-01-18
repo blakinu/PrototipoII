@@ -6,12 +6,12 @@ public class InfoFunctions : MonoBehaviour
 {
     // Update is called once per frame
     public void Appear() {
-        Transform infoBox = transform.GetChild(0);
+        Transform infoBox = transform.GetChild(1);
         infoBox.gameObject.SetActive(true);
     }
 
     public void Disappear() {
-        Transform infoBox = transform.GetChild(0);
+        Transform infoBox = transform.GetChild(1);
         infoBox.gameObject.SetActive(false);
     }
 }
