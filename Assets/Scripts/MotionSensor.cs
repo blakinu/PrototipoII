@@ -23,9 +23,6 @@ public class MotionSensor : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (player.velocity.magnitude > 0.1)
-        {
-            OnMotionDetected(roomName);
-        }
+        OnMotionDetected(roomName);
     }
 }
