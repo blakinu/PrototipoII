@@ -29,6 +29,6 @@ public class Movement : MonoBehaviour
         Vector3 transformedMovement = _newT.transform.TransformDirection(movement * velocidad);
         
         // Movimiento.
-        controller.Move(transformedMovement * Time.deltaTime);
+        controller.Move((transformedMovement + Physics.gravity) * Time.deltaTime);
     }
 }
