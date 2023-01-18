@@ -16412,6 +16412,7 @@ MonoBehaviour:
   platforms:
   - {fileID: 1888549469}
   - {fileID: 698915188}
+  animator: {fileID: 852265306}
 --- !u!23 &8686725462591772665
 MeshRenderer:
   m_ObjectHideFlags: 0
