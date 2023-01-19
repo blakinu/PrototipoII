@@ -42,4 +42,7 @@ Se han utilizado:
   * Scripts: Trabajo en conjunto.
   * Escenificación: Trabajo en conjunto.
   * Diseño: Trabajo en conjunto
+  
+ ## Presentación
+ [Link a las slides](https://docs.google.com/presentation/d/1ydCLV63hbdJo1zcla4vuX_cwhCGqdgyJBK8wBuYP5iQ/edit?usp=sharing)
 
