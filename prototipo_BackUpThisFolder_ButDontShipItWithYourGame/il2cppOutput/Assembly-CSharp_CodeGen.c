@@ -206,17 +206,25 @@ extern void PlayerTP_Update_m84ED69CC7B4EB93063CAF8E6270F54CBCE0848C9 (void);
 extern void PlayerTP_TPto_mD932CC081B3397D6DC24F55A3907AA19A9A476AF (void);
 // 0x00000061 System.Void PlayerTP::.ctor()
 extern void PlayerTP__ctor_m6B393241EE29D6AD91B3F838003B47A40BE11102 (void);
-// 0x00000062 System.Void Water::Start()
+// 0x00000062 System.Void Sound::Start()
+extern void Sound_Start_m47CF0F83A25EB683839F81138F490ED199A39BD5 (void);
+// 0x00000063 System.Void Sound::Update()
+extern void Sound_Update_m8C9235D54030FB80FB3741321B0ABA46550D9DEA (void);
+// 0x00000064 System.Void Sound::PlaySound(System.String)
+extern void Sound_PlaySound_m1B53153BBE2F424C256D3BC6476C033C88C28B97 (void);
+// 0x00000065 System.Void Sound::.ctor()
+extern void Sound__ctor_m5DD7C9F71B98D5670BBDD05F6D6FCDF43DC9EA8F (void);
+// 0x00000066 System.Void Water::Start()
 extern void Water_Start_m1ECC61B13E352F12652ABBC3792D95DDDB540727 (void);
-// 0x00000063 System.Void Water::Update()
+// 0x00000067 System.Void Water::Update()
 extern void Water_Update_mA8EA951D9C32DDAF41746FC99101B485EE092E3F (void);
-// 0x00000064 System.Void Water::TurnOnWater(System.String)
+// 0x00000068 System.Void Water::TurnOnWater(System.String)
 extern void Water_TurnOnWater_mE4B1D9501F8367C4E201738214DA7CB0E3550E89 (void);
-// 0x00000065 System.Void Water::OnTriggerExit(UnityEngine.Collider)
+// 0x00000069 System.Void Water::OnTriggerExit(UnityEngine.Collider)
 extern void Water_OnTriggerExit_mD500D4413DD634942C9C3560CF5BDF7D52676C21 (void);
-// 0x00000066 System.Void Water::.ctor()
+// 0x0000006A System.Void Water::.ctor()
 extern void Water__ctor_m39BD6E49B74929BAB39A81C4A4A7DDFFC5C8146F (void);
-static Il2CppMethodPointer s_methodPointers[102] = 
+static Il2CppMethodPointer s_methodPointers[106] = 
 {
 	CameraPointer_Update_mF19D284A593E4627CD4F22A58C11FB87B6627FF4,
 	CameraPointer__ctor_m5C4B443EB7C8A518306BF27BD947D938FDF5162D,
@@ -315,13 +323,17 @@ static Il2CppMethodPointer s_methodPointers[102] =
 	PlayerTP_Update_m84ED69CC7B4EB93063CAF8E6270F54CBCE0848C9,
 	PlayerTP_TPto_mD932CC081B3397D6DC24F55A3907AA19A9A476AF,
 	PlayerTP__ctor_m6B393241EE29D6AD91B3F838003B47A40BE11102,
+	Sound_Start_m47CF0F83A25EB683839F81138F490ED199A39BD5,
+	Sound_Update_m8C9235D54030FB80FB3741321B0ABA46550D9DEA,
+	Sound_PlaySound_m1B53153BBE2F424C256D3BC6476C033C88C28B97,
+	Sound__ctor_m5DD7C9F71B98D5670BBDD05F6D6FCDF43DC9EA8F,
 	Water_Start_m1ECC61B13E352F12652ABBC3792D95DDDB540727,
 	Water_Update_mA8EA951D9C32DDAF41746FC99101B485EE092E3F,
 	Water_TurnOnWater_mE4B1D9501F8367C4E201738214DA7CB0E3550E89,
 	Water_OnTriggerExit_mD500D4413DD634942C9C3560CF5BDF7D52676C21,
 	Water__ctor_m39BD6E49B74929BAB39A81C4A4A7DDFFC5C8146F,
 };
-static const int32_t s_InvokerIndices[102] = 
+static const int32_t s_InvokerIndices[106] = 
 {
 	4260,
 	4260,
@@ -416,6 +428,10 @@ static const int32_t s_InvokerIndices[102] =
 	3402,
 	828,
 	3402,
+	4260,
+	4260,
+	3402,
+	4260,
 	4260,
 	4260,
 	3402,
@@ -430,7 +446,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	102,
+	106,
 	s_methodPointers,
 	0,
 	NULL,
