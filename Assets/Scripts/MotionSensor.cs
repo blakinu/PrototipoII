@@ -6,7 +6,6 @@ public class MotionSensor : MonoBehaviour
 {
     public delegate void MotionDetectedEvent(string roomName);
     public static event MotionDetectedEvent OnMotionDetected;
-    public CharacterController player;
     public string roomName;
 
     // Start is called before the first frame update
