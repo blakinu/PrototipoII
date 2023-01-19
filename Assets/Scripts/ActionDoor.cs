@@ -5,9 +5,6 @@ using UnityEngine;
 public class ActionDoor : MonoBehaviour
 {
     Animator animator;
-    public AudioSource openAudio;
-    public AudioSource closeAudio;
-    public bool playSound;
 
     // Start is called before the first frame update
     void Start()
@@ -27,15 +24,5 @@ public class ActionDoor : MonoBehaviour
         {
             animator.SetTrigger("action");
         }
-    }
-
-    public void PlayOpenSound()
-    {
-        openAudio.Play();
-    }
-
-    public void PlayCloseSound()
-    {
-        closeAudio.Play();
     }
 }
