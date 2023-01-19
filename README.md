@@ -28,6 +28,8 @@ Se han utilizado:
 
 ## Gif animado de ejecución
 
+[Link al gif](https://drive.google.com/file/d/1xa0Tgg4G9D4kbDbDot3Hqk01_esCjZO7/view?usp=share_link)
+
 ## Tareas del grupo.
 
   * Director de Proyecto: Airam
