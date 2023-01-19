@@ -8,14 +8,16 @@ public class Movement : MonoBehaviour
     private Vector3 movement;
     private Transform _newT;
     public float velocidad = 1.5f;
+    public AudioSource walkAudio;
 
     void Start()
     {
-       controller = GetComponent<CharacterController>();
+        controller = GetComponent<CharacterController>();
         _newT = new GameObject().transform;
     }
 
-    void Update() {
+    void Update()
+    {
         Move();
     }
 
@@ -24,10 +26,17 @@ public class Movement : MonoBehaviour
         // Obtención de los valores de movimiento y normalización.
         movement = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")).normalized;
 
-        _newT.eulerAngles = new Vector3(0,Camera.main.transform.eulerAngles.y,0);
+        if (movement.magnitude == 0)
+        {
+            walkAudio.Stop();
+            return;
+        }
+
+        if (!walkAudio.isPlaying) walkAudio.Play();
+        _newT.eulerAngles = new Vector3(0, Camera.main.transform.eulerAngles.y, 0);
         // Transformación del movimiento respecto al sistema de coordenadas global.
         Vector3 transformedMovement = _newT.transform.TransformDirection(movement * velocidad);
-        
+
         // Movimiento.
         controller.Move((transformedMovement + Physics.gravity) * Time.deltaTime);
     }

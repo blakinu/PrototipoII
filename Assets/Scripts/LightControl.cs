@@ -5,7 +5,7 @@ using UnityEngine;
 public class LightControl : MonoBehaviour
 {
     IEnumerator turnOffCoroutine;
-    public Light lightComponent;
+    public Animator animator;
     public float turnOffCooldown;
     public string roomName;
 
@@ -27,7 +27,7 @@ public class LightControl : MonoBehaviour
         if (roomName != lightRoom) return;
 
         StopCoroutine(turnOffCoroutine);
-        lightComponent.enabled = true;
+        animator.SetBool("Turn", true);
         turnOffCoroutine = TurnOffLight();
         StartCoroutine(turnOffCoroutine);
     }
@@ -35,6 +35,6 @@ public class LightControl : MonoBehaviour
     IEnumerator TurnOffLight()
     {
         yield return new WaitForSeconds(turnOffCooldown);
-        lightComponent.enabled = false;
+        animator.SetBool("Turn", false);
     }
 }
