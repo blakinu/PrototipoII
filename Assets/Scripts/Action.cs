@@ -22,6 +22,6 @@ public class Action : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        OnAction(action);
+        if (Input.GetAxisRaw("Action") == 1) OnAction(action);
     }
 }
