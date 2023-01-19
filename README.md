@@ -21,6 +21,7 @@ Se han utilizado:
 
 ## Tareas del grupo.
 
+  * Director de Proyecto: Airam
   * Beta Tester: Airam
   * Animaciones: Jaime
   * Sonido: Jaime
