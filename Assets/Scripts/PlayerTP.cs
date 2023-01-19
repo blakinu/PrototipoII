@@ -22,8 +22,8 @@ public class PlayerTP : MonoBehaviour
         if (platformToTP == null || !animator.GetCurrentAnimatorStateInfo(0).IsName("Wait")) return;
 
         characterController.enabled = false;
-        transform.position = platformToTP.gameObject.transform.position +
-                Vector3.Scale(platformToTP.GetComponent<Renderer>().bounds.size, new Vector3(0, 1, 0));
+        transform.position = platformToTP.gameObject.transform.position;
+        transform.position += Vector3.up * 1.3f;
         characterController.enabled = true;
         platformToTP = null;
         animator.SetBool("TP", false);
