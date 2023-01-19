@@ -28,7 +28,7 @@ Se han utilizado:
 
 ## Gif animado de ejecución
 
-![img.gif](https://drive.google.com/file/d/1xa0Tgg4G9D4kbDbDot3Hqk01_esCjZO7/view?usp=share_link)
+![img.gif](https://drive.google.com/uc?id=1xa0Tgg4G9D4kbDbDot3Hqk01_esCjZO7/view?usp=share_link)
 
 ## Tareas del grupo.
 
