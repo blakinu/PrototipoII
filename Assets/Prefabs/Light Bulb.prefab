@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4583193966070183926}
   - component: {fileID: 3410460831712211609}
   - component: {fileID: 156856533527505037}
+  - component: {fileID: 1845529372890417049}
   m_Layer: 0
   m_Name: Light Bulb
   m_TagString: Untagged
@@ -111,9 +112,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4681f324505bb84b959135846fe2541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lightComponent: {fileID: 2614571996134362715}
+  animator: {fileID: 1845529372890417049}
   turnOffCooldown: 5
   roomName: 
+--- !u!95 &1845529372890417049
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4949751533510858957}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dae5a7ed71a266c47912b38e70f22f88, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8309282756278187327
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,13 +174,13 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8309282756278187327}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1.5
-  m_Range: 10
+  m_Range: 0
   m_SpotAngle: 140.7268
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
