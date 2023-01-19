@@ -2,10 +2,12 @@
 
 ## Cuestiones importantes para uso.
 
- * NO descargar el repositorio en .zip, clonar el repositorio.
+### Si se quiere clonar el proyecto
+ * NO descargar el repositorio en .zip desde Github, clonar el repositorio, o descargar el .zip que está en el repo.
  * INSTALAR [Git LFS](https://git-lfs.com/). (Puedes seguir este [Tutorial](https://www.youtube.com/watch?v=j8E9QG-7eOo))
+### Utilizar la App
  * Conectar un mando por Bluetooth al dispositivo móvil.
- * El botón de acción puede depender del tipo de mando. En Xbox es el botón de abajo.
+ * El botón de acción puede depender del tipo de mando. En Xbox es el botón de abajo, por ejemplo.
  * Preferiblemente utilizar la aplicación sentado.
  
 ## Hitos de programación
