@@ -26,7 +26,6 @@ public class PlatformTP : MonoBehaviour
             inside = true;
             if (key)
             {
-                Debug.Log("PRESSED");
                 key = false;
                 OnPlayerPress(PlatformToTP);
             }
